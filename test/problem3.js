@@ -75,7 +75,8 @@ describe("Liquidation", function () {
 
     const profit = afterLiquidationBalance.sub(beforeLiquidationBalance);
     console.log("------------------------");
-    console.log("Profit", utils.formatEther(profit), "ETH");
+    console.log("Profit = ", utils.formatEther(profit), "ETH");
+    console.log("------------------------");
 
     expect(true);
   });
